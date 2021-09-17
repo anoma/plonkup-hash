@@ -1,0 +1,10 @@
+[package]
+name = "plonkup-hash"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dusk-plonk = { git = "https://github.com/dusk-network/plonkup" }
+dusk-bls12_381 = "0.8.0"
